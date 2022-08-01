@@ -25,7 +25,7 @@ This new assignment consists of two technical analysis deliverables and a writte
 1. ***Deliverable 1:*** Preprocessing Data for a Neural Network Model
 2. ***Deliverable 2:*** Compile, Train, and Evaluate the Model
 3. ***Deliverable 3:*** Optimize the Model
-4. ***Deliverable 4:*** A Written Report on the Analysis [README.md](https://github.com/DataJew/Neural_Network_Charity_Analysis)
+4. ***Deliverable 4:*** A Written Report on the Analysis [`README.md`](https://github.com/DataJew/Neural_Network_Charity_Analysis)
 
 ## DELIVERABLE RESULTS:
 
@@ -64,6 +64,8 @@ In this model there are three hidden layers each with many neurons,  because thi
 
 
 ##### This model acheived 78.8% accuracy, slightly above the target model performance of 75%.
+![image](https://github.com/DataJew/Neural_Network_Charity_Analysis/blob/main/Resources/images/optimized.png)
+
 
 The folling steps were taken to increase model performance:
 
@@ -79,3 +81,4 @@ Overall, by increasing the accuracy above 75% we are able to correctly classify 
 - The application has the following CLASSIFICATION; C1000, C2000, C1200, C3000 and C2100.
 
 A good model to recommend is the Random Forest model because Random Forest are good for classification problems. Using this model produces a 78% accuracy.
+![image](https://github.com/DataJew/Neural_Network_Charity_Analysis/blob/main/Resources/images/RF.png)
