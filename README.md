@@ -50,7 +50,7 @@ For this analysis and model, the target is held in IS_SUCCESSFUL field, which si
 
 * EIN
 
-EIN (Employer identificaiton) was dropped because the numbers could confuse the system into thinking its significant.
+EIN (Employer identificaiton) was dropped because the numbers could influce their significant.
 
 ##### Compiling, Training, and Evaluating the Model
 
@@ -58,23 +58,23 @@ EIN (Employer identificaiton) was dropped because the numbers could confuse the 
 
 ![image](https://github.com/DataJew/Neural_Network_Charity_Analysis/blob/main/Resources/images/model_defined.png)
 
-In this model there are three hidden layers each with many neurons,  because this seeemed to increased the accuracy above 75%. The first activation function was 'relu' but the 2nd and 3rd were 'sigmoid'and the output function was 'sigmoid'. 
+In this model there are three hidden layers each with many neurons,  as this seeemed to increased the accuracy above 75%. The first activation function was 'relu', but the 2nd and 3rd were 'sigmoid'. The output function was also 'sigmoid'. 
 
 
 ##### This model acheived 78.8% accuracy (slightly above the target model performance of 75%) in the same number of epochs.
 ![image](https://github.com/DataJew/Neural_Network_Charity_Analysis/blob/main/Resources/images/optimized.png)
 
 
-The folling steps were taken to increase model performance:
+The following steps were taken to increase model performance:
 
-* Converting the NAME column into data points, which had the biggest impact on improving efficiency.
+* Converting the NAME column into data points, which had the most impact on improving the model's efficiency.
 * Adding a third layer and using the "sigmoid" activation function for the 2nd and 3rd layer.
 
 
 ### SUMMARY
 
 Overall, by increasing the accuracy above 75% we are able to correctly classify each of the points in the test data 75% of the time. Additionally, an applicant has approximately an 80% chance of being successful if they have the following:
-- The NAME of the applicant appears more than 5 times (they have applied more than 5 times)
+- The NAME of the applicant appears > 5 times (they have applied more than 5 times)
 - The type of APPLICATION is one of the following; T3, T4, T6, T5, T19, T8, T7, and T10.
 - The application has the following CLASSIFICATION; C1000, C2000, C1200, C3000 and C2100.
 
