@@ -56,14 +56,12 @@ EIN (Employer identificaiton) was dropped because the numbers could confuse the 
 
 **Model Configuration:**
 
-* hidden_nodes_layer1 = 100
-* hidden_nodes_layer2 = 30
-* number_input_features = 10
+![image](https://github.com/DataJew/Neural_Network_Charity_Analysis/blob/main/Resources/images/model_defined.png)
 
-In this model there are three hidden layers each with many neurons,  because this seeemed to increased the accuracy above 75%. The number of epochs wasn't changed. The first activation function was 'relu' but the 2nd and 3rd were 'sigmoid'and the output function was 'sigmoid'. Changing the 2nd and 3rd activation functions to 'sigmoid' also helped boost the accuracy. 
+In this model there are three hidden layers each with many neurons,  because this seeemed to increased the accuracy above 75%. The first activation function was 'relu' but the 2nd and 3rd were 'sigmoid'and the output function was 'sigmoid'. 
 
 
-##### This model acheived 78.8% accuracy, slightly above the target model performance of 75%.
+##### This model acheived 78.8% accuracy (slightly above the target model performance of 75%) in the same number of epochs.
 ![image](https://github.com/DataJew/Neural_Network_Charity_Analysis/blob/main/Resources/images/optimized.png)
 
 
