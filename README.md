@@ -80,5 +80,5 @@ Overall, by increasing the accuracy above 75% we are able to correctly classify 
 - The type of APPLICATION is one of the following; T3, T4, T6, T5, T19, T8, T7, and T10.
 - The application has the following CLASSIFICATION; C1000, C2000, C1200, C3000 and C2100.
 
-A good model to recommend is the Random Forest model because Random Forest are good for classification problems. Using this model produces a 78% accuracy.
+A good model to recommend is the Random Forest model because Random Forest are good for classification problems. Using this model produces a similar, 78% accuracy.
 ![image](https://github.com/DataJew/Neural_Network_Charity_Analysis/blob/main/Resources/images/RF.png)
